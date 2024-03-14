@@ -16,3 +16,43 @@
     color:aquamarine;
     font-weight: 600;
 }
+.img-loading{
+    display: flex;
+    flex-direction: column;
+}
+.img-loading img{
+    width: 512px;
+}
+.search-box{
+    display: flex;
+    margin: auto;
+    max-width: 800px;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background: #3b3b3b;
+}
+.search-input{
+    width: 600px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 35px;
+    margin-right: 70px;
+}.search-input ::placeholder{
+    color: #999;
+}
+.generate-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: rgb(82, 164, 135);
+    cursor: pointer;
+}
