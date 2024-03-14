@@ -19,11 +19,15 @@ const ImageGenerator = () => {
                     "Content-Type":"application/json",
                     Authorization: `Bearer ${import.meta.env.VITE_APP_OPENAI_API_KEY}`,
                     "User-Agent":"Chrome",
+                    "model": "dall-e-3",
+                    "quality": "hd",
                 },
                 body:JSON.stringify({
                     prompt:`${inputRef.current.value}`,
                     n:1,
-                    size:"512x512",
+                    "model": "dall-e-3",
+                    "quality": "hd",
+                    "size": "1024x1024"
                 }),
             }
         );
