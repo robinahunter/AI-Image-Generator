@@ -8,13 +8,20 @@
     gap: 30px;
 }
 .header{
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 500;
     padding-bottom: 30px;
 }
 .header span{
     color:aquamarine;
     font-weight: 600;
+}
+.image{
+    width: 512px;
+    height: 512px;
+    border-radius: 20px;
+    object-fit: cover;
+    overflow: hidden;
 }
 .img-loading{
     display: flex;
@@ -55,4 +62,21 @@
     border-radius: 10px;
     background: rgb(82, 164, 135);
     cursor: pointer;
+}
+.loading-bar{
+    width: 0px;
+    height: 6px;
+    background: aquamarine;
+}
+.loading-text{
+    font-size: 18px;
+}
+.loading-bar-full{
+    width: 512px;
+    height: 6px;
+    background: aquamarine;
+    transition: 25s;
+}
+.display-none{
+    display: none;
 }
