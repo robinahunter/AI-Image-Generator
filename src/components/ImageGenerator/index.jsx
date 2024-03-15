@@ -19,7 +19,7 @@ const ImageGenerator = () => {
                 method: "POST",
                 headers: {
                     "Content-Type":"application/json",
-                    Authorization: `Bearer ${import.meta.env.VITE_APP_OPENAI_API_KEY}`,
+                    Authorization: `Bearer ${import.meta.env.VITE_OPENAI_API_KEY}`,
                     "User-Agent":"Chrome",
                     "model": "dall-e-3",
                     "quality": "hd",
